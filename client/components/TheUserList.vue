@@ -10,7 +10,7 @@
           <v-list-tile-title>{{ `${name.title}. ${name.first} ${name.last}` | titleize }}</v-list-tile-title>
           <v-list-tile-sub-title>
             {{ `${gender}` | titleize }}
-            <span style="float: right">{{ `${dob}` }}</span>
+            <span style="float: right;" class="teal--text">{{ `${email}` }}</span>
           </v-list-tile-sub-title>
         </v-list-tile-content>
       </v-list-tile>
