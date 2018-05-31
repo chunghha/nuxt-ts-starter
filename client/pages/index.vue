@@ -1,7 +1,7 @@
 <template>
-  <v-container class="ma-0 pa-0">
+  <v-container>
     <v-layout>
-      <v-flex class="ml-2 mr-2">
+      <v-flex>
         <v-btn block
                color="accent"
                nuxt
@@ -12,7 +12,9 @@
     </v-layout>
     <v-layout>
       <v-flex>
-        <the-user-list :users="users" />
+        <v-card>
+          <the-user-list :users="users" />
+        </v-card>
       </v-flex>
     </v-layout>
   </v-container>
