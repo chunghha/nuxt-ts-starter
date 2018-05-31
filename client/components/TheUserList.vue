@@ -1,6 +1,6 @@
 <template>
   <v-list two-line>
-    <template v-for="{ email, name, picture, gender, dob } in users">
+    <template v-for="{ email, name, picture, gender } in users">
       <v-list-tile avatar
                    :key="email">
         <v-list-tile-avatar>
